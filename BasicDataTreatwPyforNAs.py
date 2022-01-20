@@ -29,6 +29,8 @@ for col in (colnames):
             n_data[col].fillna(stc.median(n_data[col]),inplace = True)
         elif is_string_dtype(n_data[col]):
             mode = moda_calc(n_data[col])
-            n_data[col].fillna(mode), inplace = True)
+            #n_data[col].fillna(mode), inplace = True)
+            #print(n_data.loc[n_data[col] == float, col])
+            n_data.loc[n_data[col] == float, col] = mode
     else: ("The column " + col +" is completed.")
 print(n_data)
