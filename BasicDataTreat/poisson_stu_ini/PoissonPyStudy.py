@@ -9,43 +9,42 @@ def factCalc(num):
         return new_num
     return 1
 
-def poisCalc(poi_op, poi_x, poi_lam):
-    if poi_op == "=":
-        first_in_e = e ** -(poi_lam)
-        sec_in = poi_lam ** poi_x
-        denom = factCalc(poi_x)
-        final_calc = (first_in_e * sec_in)/denom
-        return final_calc
+def poisCalcaux(poi_x, poi_lam):
+    e = 2.71828
+    first_in_e = e ** -(poi_lam)
+    sec_in = poi_lam ** poi_x
+    denom = factCalc(poi_x)
+    final_calc = (first_in_e * sec_in)/denom
+    return final_calc
 
+def poisCalc(poi_op, poi_x, poi_lam):
+    #e = 2.71828
+    if poi_op == "=": return poisCalcaux(poi_x, poi_lam)
     elif poi_op == "<":
-        divid = 0
-        for num_x in range(poi_x):
-            first_in_e = e ** -(poi_lam)
-            sec_in = poi_lam ** num_x
-            denom = factCalc(num_x)
-            final_calc = (first_in_e * sec_in)/denom
-            divid += final_calc
-        return divid
+        poi_som = 0
+        for num_x in range(poi_x): poi_som += poisCalcaux(num_x, poi_lam)
+        return poi_som
 
     elif poi_op == ">":
         poi_x_i = poi_x
-        first_in_e = e ** -(poi_lam)
-        sec_in = poi_lam ** poi_x_i
-        denom = factCalc(poi_x_i)
-        final_calc = (first_in_e * sec_in)/denom
-        divid = final_calc
+        divid = poisCalcaux(poi_x_i, poi_lam)
+        poi_som = 0
+        for num_x in range(poi_x): poi_som += poisCalcaux(num_x, poi_lam)
+        return 1 - (poi_som + divid)
 
-        for num_x in range(poi_x):
-            first_in_e = e ** -(poi_lam)
-            sec_in = poi_lam ** num_x
-            denom = factCalc(num_x)
-            final_calc = (first_in_e * sec_in)/denom
-            divid += final_calc
+    else: return "something is wrong with the entry try like this 2 > 4."
 
-e = 2,71828
-poisson_entry = input().split(" ")
+import tkinter as tk
+from tkinter import simpledialog
+
+tktk_v = tk.Tk()
+tktk_v.withdraw()
+options = simpledialog.askstring(title="Poisson choice",
+                                  prompt="What's your Poisson situation?(Like: x = lambda)(=/</>)")
+poisson_entry =options.split(" ")
+ 
 poi_x = int(poisson_entry[0])
 poi_op = poisson_entry[1]
 poi_lam = int(poisson_entry[2])
 
-
+print(poisCalc(poi_op, poi_x, poi_lam))
