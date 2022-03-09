@@ -1,13 +1,5 @@
-<h1 align='center'>Python projects</h1>
-<h3 align='center'>A repository to store my python scripts & projects</h3>
-<h4>Projects :</h4> 
-- General projects  <br />
-& PCVwGeneticAlgo (https://github.com/LuisFelipeTs/Python-projects/tree/main/PCVwGeneticAlg) <br />
+<h1 align='center'>Heart_desease_ML_study</h1>
+<h3 align='center'>The database presented in this study comes from the kaggle platform, in this case only the data referring to people aged 25 to 29 years</h3>
 
-- Automation projects &  B.O.T projects:<br />
-& Random chooser (https://github.com/LuisFelipeTs/Python-projects/tree/main/Automation_projects/Random_choice_auto)  <br />
-
-- B.P.P projects:  <br />
-& Simple Wikipedia Alf Request (https://github.com/LuisFelipeTs/Python-projects/blob/main/Basic-Py-Projects/Wiki-Alf-Request/wiki_request.py)<br />
-
+Kaggle's link: https://www.kaggle.com/kamilpytlak/personal-key-indicators-of-heart-disease
 
