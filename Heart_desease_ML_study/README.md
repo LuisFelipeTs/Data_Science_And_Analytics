@@ -3,3 +3,5 @@
 
 Kaggle's link: https://www.kaggle.com/kamilpytlak/personal-key-indicators-of-heart-disease
 
+Comparing ML algorithms:
+- RandomForestClassifier
