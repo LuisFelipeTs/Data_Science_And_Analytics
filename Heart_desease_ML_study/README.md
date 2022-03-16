@@ -5,7 +5,7 @@ Kaggle's link: https://www.kaggle.com/kamilpytlak/personal-key-indicators-of-hea
 
 Comparing ML algorithms(Hit rate):
 - RandomForestClassifier --------- 74%
-- Naive_bayes --------------------- 71%
+- Naive_Bayes --------------------- 71%
 - KNeighbors ---------------------- 72%
 
 <i>The Study used to use 25-29 years, but did not have enough positive data to be able to use that part of the database</i>
