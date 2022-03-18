@@ -1,17 +1,8 @@
-<h1 align='center'>Python projects</h1>
-<h3 align='center'>A repository to store my python scripts & projects</h3>
-<h4>Projects :</h4> 
+<h1 align='center'>Covid in cities</h1>
+<h3 align='center'>The database presented in this study comes from the kaggle platform. it is important to metion that the cities present in this database are Brazilian cities</h3>
 
-<h3 align='center'>General projects </h3> <br />
-& PCVwGeneticAlgo <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/PCVwGeneticAlg)</h5>  <br />
+Kaggle's link: https://www.kaggle.com/datasets/unanimad/corona-virus-brazil
 
-<h3 align='center'>Automation projects &  B.O.T projects:</h3> <br />
-& Random chooser <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/Automation_projects/Random_choice_auto)</h5>   <br />
-& WA Tic-Tac-Toe bot <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/Automation_projects/tic_tac_toe_wts)</h5>  <br />
-& wiki and dicionary return <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/Automation_projects/txtCopyChecker)</h5>   <br />
-& WA lyrcs bot <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/Automation_projects/whatsapp_lyrics_bot)</h5>  <br />
+Comparing ML algorithms(Hit rate):
 
-<h3 align='center'>B.P.P projects: </h3> <br />
-& Simple Wikipedia Alf Request <h5>(https://github.com/LuisFelipeTs/Python-projects/blob/main/Basic-Py-Projects/Wiki-Alf-Request/wiki_request.py)</h5> <br />
-& Py CRUD w Tkinter <h5>(https://github.com/LuisFelipeTs/Python-projects/tree/main/Basic-Py-Projects/basic_CRUD_in_py)</h5> <br />
-
+<i></i>
