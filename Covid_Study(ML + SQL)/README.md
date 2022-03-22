@@ -3,6 +3,7 @@
 
 Kaggle's link: https://www.kaggle.com/datasets/unanimad/corona-virus-brazil
 
-Comparing ML algorithms(Hit rate):
+Data threatment:
+
 
 <i></i>
