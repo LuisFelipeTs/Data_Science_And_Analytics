@@ -3,7 +3,9 @@
 
 Kaggle's link: https://www.kaggle.com/datasets/unanimad/corona-virus-brazil
 
-Data threatment:
-
+Data treatment:
+- brazil_cities_coordinates.csv[already treated]
+- brazil_covid19.csv[already treated]
+- brazil_covid19_macro.csv[already treated]
 
 <i></i>
