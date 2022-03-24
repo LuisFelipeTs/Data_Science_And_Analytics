@@ -7,5 +7,6 @@ Data treatment:
 - brazil_cities_coordinates.csv[already treated]
 - brazil_covid19.csv[already treated]
 - brazil_covid19_macro.csv[already treated]
+- brazil_covid19_old.csv[in treatment]
 
 <i></i>
