@@ -8,5 +8,6 @@ Data treatment:
 - brazil_covid19.csv[already treated]
 - brazil_covid19_macro.csv[already treated]
 - brazil_covid19_old.csv[in treatment]
+- brazil_population_2019.csv[already treated]
 
 <i></i>
