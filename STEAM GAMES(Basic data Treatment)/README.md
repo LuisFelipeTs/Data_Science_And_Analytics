@@ -8,3 +8,4 @@ A change was required in the given database where 4 columns were created and the
 - status (represents whether the player played the game)
 - Time_played
 
+For PBI, the kaggle database of the following link was also used(Just a Prototype): https://www.kaggle.com/datasets/jackogozaly/steam-player-data
